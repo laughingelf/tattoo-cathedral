@@ -2,7 +2,7 @@
 
 function Artists() {
     return (
-        <div>
+        <div className="page-data h-screen md:h-[60rem] sm:h-[30rem]">
 
             <h1>Artists</h1>
 

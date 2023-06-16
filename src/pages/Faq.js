@@ -3,11 +3,10 @@
 
 function Faq() {
     return (
-        <div>
+        <div className="page-data h-screen">
 
-            <h1>FAQ's</h1>
-
-            <ul>
+            <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-black">FAQ's:</h2>
+            <ul class="max-w-xl space-y-1 text-gray-500 list-disc list-inside dark:text-black">
                 <li>How do I book an appointment?</li>
                 <li>How much does a tattoo cost?</li>
                 <li>How long does it take to get a tattoo?</li>

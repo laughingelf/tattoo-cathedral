@@ -2,10 +2,10 @@
 
 function Aftercare() {
     return (
-        <div>
+        <div className="page-data h-full mb-8">
 
-            <h1>Tatoo Aftercare Instructions</h1>
-            <ul>
+            <h2 class="mb-2 mt-8 text-lg font-semibold text-gray-900 dark:text-black">Aftercare List:</h2>
+            <ul class="max-w-xl space-y-1 text-gray-500 list-disc list-inside dark:text-black">
                 <li>
                     Clean your tattoo. Remove the bandage after three (3) hours, but no more than twelve (12).
                     DO NOT remove the bandage until you can properly clean the tattoo with mild soap (Opti-Scrub Antimicrobial Soap)

@@ -2,22 +2,22 @@
 
 function Footer() {
     return (
-        <div id="contact-footer">
+        <div id="contact-footer ">
 
             <footer class="bg-white dark:bg-gray-900">
-                <div class="mx-auto w-full max-w-screen-xl p-4 py-3 lg:py-3">
+                <div class="mx-auto w-full max-w-screen-xl p-4 py-3 lg:py-3 ">
                     <div className="md:flex md:justify-center">
-                        <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                        <div id="info" className=" grid grid-cols-2 gap-8 sm:gap-4 sm:grid-cols-3 md:grid-cols-4 ">
                             <div>
-                                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">(817)-585-1088</h2>
+                                <h2 className="mb-1 text-sm font-semibold text-gray-900 uppercase dark:text-white">(817)-585-1088</h2>
                             </div>
                             <div>
-                                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                                <h2 className="mb-1 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                                     <a href="mailto:">jasin@tattoocathedral.com</a>
                                 </h2>
                             </div>
                             <div>
-                                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                                <h2 className="mb-1 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                                     <a href="https://goo.gl/maps/dWXW8PhzJZnaW2AQ7">3014 Alta Mere Dr, Forth Worth, TX 76116</a>
                                 </h2>
                             </div>

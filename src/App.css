@@ -4,3 +4,29 @@
   justify-content: center;
   align-items: center;
 }
+
+#info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#map iframe {
+  height: 350px;
+}
+
+@media (max-width: 768px) {
+  #map iframe {
+    height: 250px;
+  }
+
+  #info {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  #map iframe {
+    height: 200px;
+  }
+}

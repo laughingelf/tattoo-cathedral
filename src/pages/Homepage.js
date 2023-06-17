@@ -2,9 +2,9 @@
 
 function Homepage() {
     return (
-        <div className="page-data h-full mt-8">
-            <div id="logo">
-                <img src="./img/tattoo-cathedral.png" />
+        <div className="page-data h-full mt-1">
+            <div id="logo" >
+                <img src="./img/logo.png" className="lg:h-[40rem] md:h-[20rem]" />
             </div>
             <div id="shop-pictures">
 

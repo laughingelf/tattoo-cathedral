@@ -18,7 +18,7 @@ function classNames(...classes) {
 
 export default function Example() {
     return (
-        <div className="lg:flex lg:items-start lg:justify-end h-40 bg-cover" style={{ backgroundImage: 'url(./img/chan-nav-bg.png)' }} >
+        <div className="lg:flex lg:items-start lg:justify-end h-40 bg-cover" style={{ backgroundImage: 'linear-gradient(to bottom, rgba(45, 45, 45, 0.1), rgba(45, 45, 45, 0.2)), url(./img/chan-nav-bg.png)' }} >
 
             <div className="min-w-0 flex-1">
                 <div className="mt-1 flex flex-col sm:mt-0 sm:flex-row sm:flex-wrap sm:space-x-6 justify-end links">

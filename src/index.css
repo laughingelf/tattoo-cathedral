@@ -12,6 +12,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-image: url('../public/img/star-bg.png'); */
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url('../public/img/star-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 code {

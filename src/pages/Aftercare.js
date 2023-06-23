@@ -2,7 +2,7 @@
 
 function Aftercare() {
     return (
-        <div className="page-data h-full mb-8">
+        <div className="page-data h-full mb-8 ml-2">
 
             <h2 class="mb-2 mt-8 text-lg font-semibold text-gray-900 dark:text-black">Aftercare List:</h2>
             <ul class="max-w-xl space-y-1 text-gray-500  list-inside dark:text-black">

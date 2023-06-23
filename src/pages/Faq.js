@@ -3,7 +3,7 @@
 
 function Faq() {
     return (
-        <div className="page-data h-screen">
+        <div className="page-data h-screen ml-2">
 
             <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-black">FAQ's:</h2>
             <ul class="max-w-xl space-y-1 text-gray-500 list-inside dark:text-black">

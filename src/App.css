@@ -17,9 +17,20 @@
   height: 350px;
 }
 
+#artist-img {
+  height: 450px;
+  width: auto;
+}
+
+
 @media (max-width: 768px) {
   #map iframe {
     height: 250px;
+  }
+
+  #artist-img {
+    height: 400px;
+    width: auto;
   }
 
   .links a {
@@ -34,5 +45,10 @@
 @media (max-width: 480px) {
   #map iframe {
     height: 200px;
+  }
+
+  #artist-img {
+    height: 300px;
+    width: auto;
   }
 }

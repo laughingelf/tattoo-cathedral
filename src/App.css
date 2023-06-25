@@ -13,8 +13,26 @@
   align-items: center;
 }
 
+#artist h1 {
+  margin-top: 4px;
+  font-size: xx-large;
+}
+
+#pages li {
+  font-family: 'Staatliches', cursive;
+}
+
+#pages h2 {
+  font-size: xx-large;
+}
+
 #map iframe {
   height: 350px;
+}
+
+.links a {
+  color: white;
+  font-family: 'Staatliches', cursive;
 }
 
 #artist-img {
@@ -33,9 +51,7 @@
     width: auto;
   }
 
-  .links a {
-    color: white;
-  }
+
 
   #info {
     flex-direction: column;

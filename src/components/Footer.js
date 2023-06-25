@@ -8,6 +8,9 @@ function Footer() {
                 <div className="md:flex md:justify-center">
                     <div id="info" className=" grid grid-cols-2 gap-8 sm:gap-4 sm:grid-cols-3 md:grid-cols-4 ">
                         <div>
+                            <h2 className="mb-1 text-sm font-semibold text-gray-900 uppercase dark:text-white border-b border-white">By Appointment Only</h2>
+                        </div>
+                        <div>
                             <h2 className="mb-1 text-sm font-semibold text-gray-900 uppercase dark:text-white">(817)-585-1088</h2>
                         </div>
                         <div>

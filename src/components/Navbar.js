@@ -22,19 +22,19 @@ export default function Example() {
 
             <div className="min-w-0 flex-1">
                 <div className="mt-1 flex flex-col sm:mt-0 sm:flex-row sm:flex-wrap sm:space-x-6 justify-end links">
-                    <div className="mt-2 flex items-center text-sm text-black">
+                    <div className="mt-2 flex items-center text-md text-black">
                         <Link to='/'>Home</Link>
                     </div>
-                    <div className="mt-2 flex items-center text-sm text-black">
+                    <div className="mt-2 flex items-center text-md text-black sm:text-sm">
                         <Link to='/artists'>Artists</Link>
                     </div>
-                    <div className="mt-2 flex items-center text-sm text-black">
+                    <div className="mt-2 flex items-center text-md text-black sm:text-sm">
                         <Link to='/precheck-list'>Pre-Check List</Link>
                     </div>
-                    <div className="mt-2 flex items-center text-sm text-black">
+                    <div className="mt-2 flex items-center text-md text-black sm:text-sm">
                         <Link to='/aftercare'>After Care</Link>
                     </div>
-                    <div className="mt-2 flex items-center text-sm text-black">
+                    <div className="mt-2 flex items-center text-md text-black sm:text-sm">
                         <Link to='/faq'>FAQ's</Link>
                     </div>
                 </div>
